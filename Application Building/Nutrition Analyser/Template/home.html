@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <meta name="description" content="Predicts type of arrythmia">
+        <title>
+            Nutrition Analyser
+        </title>
+        <link rel="icon" href="favicon.ico">  
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <ul>
+            <li><a class="active" href="about">About</a></li>
+            <li><a href="info">Info</a></li>
+            <li><a href="/">Home</a></li>
+        </ul>
+        <div class="bg">
+            <div class="centered">
+                <h1>
+                    Predict Fruits and its Nutrition 
+                </h1>
+                <img src="logo2.jpg" id="preview">
+                <label for="upload" class="uploadButton">
+                    Upload
+                    <input type="file" id="upload" accept="image/*">
+                </label>
+                <div id="loader">
+                </div>
+                <h2 id="outputText">
+                </h2>
+
+            </div>
+        </div>
+
+        <script src="uploader.js"></script>
+    </body>    
+
+</html>
